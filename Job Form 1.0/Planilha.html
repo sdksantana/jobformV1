@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 550px;
+  background: "sem.png";
+}
+
+.center {
+  margin: auto;
+}
+
+
+</style>
+<body background="background.png">
+
+	<head><title>Trabalhe Conosco</title></head>
+
+	<br>
+	<div class="center">
+		<table border="0" align="center">
+			<tr>
+				<td>E-mail:</td>
+				<td>Senha:</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="login" size="25" value="" align="right" placeholder="exemplo@gmail.com"></td>
+				<td><input type="password" name="senha" size="25" value="" maxlength="8" placeholder="Digite sua senha..."></td>
+			</tr>
+			<tr>
+				<td>Telefone:</td>
+				<td>Likedin:</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="Telefone" size="25" value="" align="center" placeholder="(XX) xxxxxxxxx"></td>
+				<td><input type="text" name="Linkedin" size="25" value="" align="right" placeholder="https://www.linkedin.com/in/"></td>
+			</tr>
+			<tr>
+				<td>Currículo:</td>
+				<td>Pretensão Salarial:</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="Currículo" size="25" value="" align="right" placeholder="Anexar link..."></td>
+				<td><input type="text" name="Pretensão Salarial" size="25" value="" align="right" placeholder="R$ 0,00"></td>
+			</tr>
+			<tr>
+				<td colspan="2">Como ficou sabendo dessa vaga?</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<select name="servidor" id="servidor">
+						<option disabled selected value> -- Selecione uma opção -- </option>
+	                    <option value="Linkedin">Linkedin</option>
+	                    <option value="Github">Github</option>
+	                    <option value="Telegram">Telegram</option>
+	                    <option value="Outros">Outros</option>
+	                  </select> </td> </tr>
+			
+						<tr>
+					<td>
+					Qual seu nível de inglês?
+					</td>
+						</tr>
+						<tr>
+					<td colspan="2">
+					<input type="radio" name="Ingles">Iniciante
+					<input type="radio" name="Ingles">Básico
+					<input type="radio" name="Ingles">Intermédiario 
+					<input type="radio" name="Ingles">Avançado 
+					</td>
+					</tr>
+							
+					
+					<tr>
+					<td>
+					<br>Qual seu nível de experiência<br>
+					</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+						<input type="radio" name="Nivel">Estágio
+						<input type="radio" name="Nivel">Júnior
+						<input type="radio" name="Nivel">Pleno 
+						<input type="radio" name="Nivel">Sênior
+					</td>
+					</tr>
+
+					<tr>
+					<td>
+					<br>Qual sua área de atuação?<br></td></tr>
+					<tr>
+						<td colspan="2">
+						<input type="checkbox" name="Atuação"checked>Front-end
+						<input type="checkbox" name="Atuação">Back-end
+						<input type="checkbox" name="Atuação">Full Stack
+						<input type="checkbox" name="Atuação">UI/UX Design
+						</td>
+					</tr>
+
+
+
+
+			<tr>
+			<td><br>Descreva mais sobre você</td>
+			</tr>
+			<tr>
+			<td colspan="2"><textarea name="descreva" rows="10" cols="40"placeholder="Digite aqui..."></textarea></td>
+			</tr>
+			<tr>
+			<td>Por que você quer trabalhar conosco?</td>
+			</tr>
+			<tr>
+			<td colspan="2"><textarea name="trabalhar" rows="10" cols="40" placeholder="Digite aqui..."></textarea></td>
+			</tr>
+
+			<tr>
+			<td><input type="reset" value="Limpar Dados"><input button type="submit" value="Enviar"></td>
+			</tr>
+
+
+			</table>
+		
+		
+		
+			</div>
+ 
+				<body bgcolor="#F0F0F0">
+				<form action="processa.html" method="post">
+		
+				<input type="hidden" name="codigoacesso" value="Código do Usuário">
+
+	
+	</form>	
+	</body>
+	</HTML>
